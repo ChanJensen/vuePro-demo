@@ -18,6 +18,7 @@
         return "页面不存在," + this.num + "S后回到首页"
       }
     },
+    //尝试修改并上传到Github
     mounted() {
       //设置倒计时定时器
       this.timeOut = setInterval(() => {
